@@ -151,6 +151,7 @@ RC can be present for single node pod, it will make sure that if pod on node die
   $ kubectl scale --replicas=6 replicaset myapp-replicaset
   ```
   ![rs2](../../images/rs2.PNG)
+  ![rsc](../../images/Replicaset_commands.png)
 
 #### K8s Reference Docs:
 - https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/
