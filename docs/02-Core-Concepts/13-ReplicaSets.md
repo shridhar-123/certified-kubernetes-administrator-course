@@ -142,7 +142,9 @@ RC can be present for single node pod, it will make sure that if pod on node die
   ```
   $ kubectl apply -f replicaset-definition.yaml
   ```
-  - Second way is to use **`kubectl scale`** command.
+  - Second way is to use **`kubectl scale`** command.--->
+    Note:- 1. This will not change original replicas present in a replicaset-definition.yaml file
+           2. Used Kubectl edit command "kubectl edit replicaset relicasetname to edit replicaset file
   ```
   $ kubectl scale --replicas=6 -f replicaset-definition.yaml
   ```
